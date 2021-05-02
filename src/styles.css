@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.q_label {
+  text-align: center;
+  position: absolute;
+  font-size: 3rem;
+  color: #000;
+  animation-name: bottomFadeOut;
+  animation-duration: 3s;
+}
+.nextBtn {
+  position: absolute;
+  bottom: 25%;
+  right: 20%;
+}
+.nextBtn:active ~ .q_label {
+  animation-name: bottomFadeOut;
+  animation-duration: 3s;
+}
+.nextBtn:focus ~ .q_label {
+  animation-name: none;
+}
+@keyframes bottomFadeOut {
+  0% {
+    bottom: 20%;
+    opacity: 0;
+  }
+
+  100% {
+    bottom: 54%;
+    opacity: 1;
+  }
+}
