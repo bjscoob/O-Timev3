@@ -1,13 +1,20 @@
 {
-  "name": "react",
+  "name": "otime-home",
   "version": "1.0.0",
-  "description": "React example starter project",
-  "keywords": ["react", "starter"],
+  "description": "",
+  "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "@material-ui/core": "4.11.4",
+    "dateformat": "4.5.1",
+    "lodash": "4.17.21",
+    "moment": "2.29.1",
     "react": "17.0.2",
+    "react-device-detect": "1.17.0",
     "react-dom": "17.0.2",
-    "react-scripts": "4.0.0"
+    "react-popup": "0.10.0",
+    "react-scripts": "4.0.0",
+    "react-select": "4.3.0"
   },
   "devDependencies": {
     "@babel/runtime": "7.13.8",
@@ -19,5 +26,10 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
